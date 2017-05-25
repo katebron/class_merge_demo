@@ -1,0 +1,69 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*colors*/
+/* line 11, ../sass/screen.scss */
+body {
+  width: 80%;
+  margin: auto;
+  font-family: sans-serif;
+}
+/* line 16, ../sass/screen.scss */
+body #nav {
+  font-size: 10px;
+  color: gray;
+  padding: 1em;
+}
+/* line 22, ../sass/screen.scss */
+body #header {
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid gray;
+}
+/* line 27, ../sass/screen.scss */
+body #main {
+  margin-top: 0.25em;
+  line-height: 1.5;
+  padding-bottom: 4em;
+}
+/* line 32, ../sass/screen.scss */
+body #main h4 {
+  color: #4d4d4d;
+}
+/* line 35, ../sass/screen.scss */
+body #main .screen_shot {
+  max-width: 30%;
+  border: 1px solid gray;
+}
+/* line 40, ../sass/screen.scss */
+body #main .note {
+  color: #333333;
+  font-style: italic;
+}
+/* line 44, ../sass/screen.scss */
+body #main .example {
+  border-radius: 1em;
+  font-size: 110%;
+  line-height: 1.6;
+  margin: 2em 0;
+  padding: 2.5em;
+  background: #F0F2F4;
+  overflow: auto;
+  font-family: monospace;
+}
+/* line 54, ../sass/screen.scss */
+body #main .books {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+/* line 58, ../sass/screen.scss */
+body #main .books li {
+  width: 50%;
+  margin-bottom: 2em;
+}
+/* line 62, ../sass/screen.scss */
+body #main .books p {
+  margin-top: 0;
+  padding-top: 0;
+}
